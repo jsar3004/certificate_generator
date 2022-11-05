@@ -3,7 +3,7 @@ import React from "react";
  import { useState } from "react";
 
 function TopBar() {
-    const [dis,setdis]=useState(window.innerHeight<=800?false:true);
+    const [dis,setdis]=useState(window.innerWidth<=800?false:true);
     return (
      <>
        <nav className="navbar">
@@ -13,7 +13,7 @@ function TopBar() {
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-        <div class="navbar-links">
+        <div className="navbar-links">
             {
                 dis?(
           <ul>

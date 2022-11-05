@@ -16,8 +16,9 @@ body {
 }
 
 .brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+    font-size: 1.7rem;
+    margin: .8rem;
+    font-weight: 600;
 }
 
 .navbar-links {
@@ -37,12 +38,12 @@ body {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: white;
+    font-weight: 600;
     padding: 1rem;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+  
 }
 
 .toggle-button {
@@ -59,7 +60,7 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+  
     border-radius: 10px;
 }
 
