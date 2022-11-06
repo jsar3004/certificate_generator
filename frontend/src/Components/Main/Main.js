@@ -1,5 +1,6 @@
 import React from "react";
 import '../Main/Main.css';
+import SecondList from '../SecondList/SecondList'
 function Main(){
     return(
 <>
@@ -39,6 +40,7 @@ function Main(){
    <img className="image" alt="normal pic" src="https://d33wubrfki0l68.cloudfront.net/646261c1acc41707b6253e4c0aca0c5d0aceb64a/7c076/images/oslo_illustrations/15_power_transp.png"></img>
  </div>
  </div>
+ <SecondList/>
 </>
     );
 }
