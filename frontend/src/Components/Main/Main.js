@@ -36,7 +36,7 @@ function Main(){
 
  </div>
   <div className="secondimage seconddesc">
-   <img className="image" src="https://d33wubrfki0l68.cloudfront.net/646261c1acc41707b6253e4c0aca0c5d0aceb64a/7c076/images/oslo_illustrations/15_power_transp.png"></img>
+   <img className="image" alt="normal pic" src="https://d33wubrfki0l68.cloudfront.net/646261c1acc41707b6253e4c0aca0c5d0aceb64a/7c076/images/oslo_illustrations/15_power_transp.png"></img>
  </div>
  </div>
 </>

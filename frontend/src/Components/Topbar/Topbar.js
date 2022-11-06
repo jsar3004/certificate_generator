@@ -8,9 +8,9 @@ function TopBar() {
      <>
        <nav className="navbar">
         <div className="brand-title">Brand Name</div>
-        <a  className="toggle-button" onClick={()=>setdis(!dis)} >
-          <img src='https://w7.pngwing.com/pngs/616/930/png-transparent-hamburger-button-computer-icons-menu-bar-line-thumbnail.png'></img>
-        </a>
+        <p className="toggle-button" onClick={()=>setdis(!dis)} >
+          <img alt="button" src='https://w7.pngwing.com/pngs/616/930/png-transparent-hamburger-button-computer-icons-menu-bar-line-thumbnail.png'></img>
+        </p>
         <div className="navbar-links">
             {
                 dis?(
