@@ -33,13 +33,17 @@ body {
 
 .navbar-links li {
     list-style: none;
+    color: black;
 }
 
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 800;
     padding: 1rem;
+    margin: 1rem;
+    font-size: large;
+    color: black;
 }
 
 .navbar-links li:hover {
