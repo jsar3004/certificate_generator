@@ -54,16 +54,49 @@
     
   }
   .list-style li{
- 
+  
     flex-direction: row;
     display: block;
     font-weight: 700;
     padding: 1rem;
     
   }
+  .basedesc{
+   display: flex;
+   margin:  4rem;
+   flex-direction: row;
+   margin-top: auto;
+   padding-top: auto;
+  }
+  .seconddesc{
+   
+    margin: 2rem;
+    padding: 1rem;
+    border-width: .1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .secondimage{
+    border-style: none;
+  }
+  .image{
+   width: 80%;
+   flex: auto;
+   border-style: none;
+  }
+  .heading1{
+
+  }
+  .heading2{
+    font-weight: 500;
+    font-size: larger;
+  }
   @media(max-width:1200px)
   {
-    .list-style{
+    .list-style {
     flex-direction: column;
     }
+    .basedesc {
+      flex-direction: column;
+      }
   }
