@@ -1,0 +1,31 @@
+.box{
+    background-color: #ffd700;
+    padding: 4rem 4rem;
+}
+.heading2{
+    text-align: center;
+}
+.basebox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.box2{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.heading3{
+    font-size: 18px;
+    color: rgba(0,0,0,0.4);
+}
+.img3{
+  width: 128px;
+}
+@media(max-width:1200px)
+{
+    .basebox{
+        flex-direction: column;
+    }
+}

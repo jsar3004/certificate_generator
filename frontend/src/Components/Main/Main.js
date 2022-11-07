@@ -1,6 +1,9 @@
 import React from "react";
 import '../Main/Main.css';
-import SecondList from '../SecondList/SecondList'
+import SecondList from '../SecondList/SecondList';
+import ThirdList from '../ThirdList/ThirdList';
+import Fourthlist from "../Fourthlist/Fourthlist";
+import DetailForm from "../DetailForm/DetailForm";
 function Main(){
     return(
 <>
@@ -41,6 +44,9 @@ function Main(){
  </div>
  </div>
  <SecondList/>
+ <ThirdList/>
+ <Fourthlist/>
+ <DetailForm/>
 </>
     );
 }
